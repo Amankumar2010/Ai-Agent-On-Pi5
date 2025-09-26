@@ -328,6 +328,8 @@ Expand Monitoring: Add exporters for specific services running on the Pi (e.g., 
 
 **High-Level Overview
 **
+
+```bash
 +--------------------------------+
                   |                                |
  (Your Laptop)    |         TAILSCALE NETWORK      |    (Raspberry Pi 5)
@@ -338,6 +340,7 @@ Expand Monitoring: Add exporters for specific services running on the Pi (e.g., 
 |  Prometheus |   |                                |   |      Agent AI     |
 |             |   |                                |   |                   |
 +-------------+   +--------------------------------+   +-------------------+
+```
 
 📜 License
 
