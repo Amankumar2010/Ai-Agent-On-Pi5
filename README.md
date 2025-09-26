@@ -278,6 +278,8 @@ networks:
   monitor-net:
     driver: bridge
 Launch the stack from your terminal in the project folder: docker-compose up -d.
+```
+
 
 </details>
 
