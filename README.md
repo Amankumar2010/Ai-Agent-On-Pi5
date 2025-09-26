@@ -326,6 +326,19 @@ Implement Memory: Add a vector database for semantic memory, allowing the agent 
 
 Expand Monitoring: Add exporters for specific services running on the Pi (e.g., a Pi-hole exporter or container monitoring with cAdvisor).
 
+**High-Level Overview
+**
++--------------------------------+
+                  |                                |
+ (Your Laptop)    |         TAILSCALE NETWORK      |    (Raspberry Pi 5)
++-------------+   |        (Secure VPN)          |   +-------------------+
+|             |   |                                |   |                   |
+|   Grafana   |<~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~>|   Pironman 5 Case   |
+|      &      |<~ ~ ~ SSH & Metrics Data ~ ~ ~ ~ ~ ~>|          +          |
+|  Prometheus |   |                                |   |      Agent AI     |
+|             |   |                                |   |                   |
++-------------+   +--------------------------------+   +-------------------+
+
 📜 License
 
 This project is licensed under the MIT License.
