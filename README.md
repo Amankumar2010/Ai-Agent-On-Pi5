@@ -10,7 +10,7 @@ From a bare board to a glowing brain! 🧠 Thrilled to share my latest full-stac
 </div>
 
 <p align="center">
-  <img alt="Pironman 5 Build" src="pironman5.jpg" width="600">
+  <img alt="Pironman 5 Build" src="WhatsApp Image 2025-09-26 at 21.58.31.jpeg" width="600">
 </p>
 
 <p align="center">
