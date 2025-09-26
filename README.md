@@ -327,4 +327,5 @@ Implement Memory: Add a vector database for semantic memory, allowing the agent 
 Expand Monitoring: Add exporters for specific services running on the Pi (e.g., a Pi-hole exporter or container monitoring with cAdvisor).
 
 📜 License
+
 This project is licensed under the MIT License.
